@@ -5,16 +5,33 @@ header{
 header img {
     width: 150px;
 }
+header .logo{
+    float: left;
+}
 header .logo a{
     text-decoration: none;
     font-size: 1.5em; /* px, %, em*/
 
 }
 header nav li {
-    display: block;
+    display: inline-block;
+    margin-left: 5xs;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    background-color: black;
+}
+header nav{
+    float: right;
 }
 
 /*---Main---*/
 
-
 /*---Footer---*/
+
+/*---All---*/
+.clearfix{
+    clear: both;
+}
