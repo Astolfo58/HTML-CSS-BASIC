@@ -1,0 +1,12 @@
+/*по тегу*/
+h1{
+    color: blueviolet;
+}
+/*по класу = .*/
+.s-brown{
+    color: brown;
+}
+/*по айді = #*/
+#s2{
+    color: green;
+}
