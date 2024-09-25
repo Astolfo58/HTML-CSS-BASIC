@@ -6,6 +6,9 @@ h1{
 .s-brown{
     color: brown;
 }
+.s-font-40{
+    font-size: 40px;
+}
 /*по айді = #*/
 #s2{
     color: green;
