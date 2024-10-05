@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: darkgray;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-title {
+    font-size: 36px;
+    color: rgb(67, 67, 67);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #888888;
+}
+
+.sub-title {
+    font-size: 24px;
+    color: rgb(104, 104, 104);
+    margin-bottom: 10px;
+}
+
+.header-text {
+    font-size: 20px;
+    color: rgb(67, 67, 67);
+    text-align: center;
+}
+
+.text-content {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    line-height: 2;
+}
+
+.shadow-text {
+    font-size: 22px;
+    color: black;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+.decorated-text {
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: 700;
+    color: rgb(67, 67, 67);
+}
+
+.footer-text {
+    font-size: 16px;
+    color: rgb(67, 67, 67);
+    text-align: center;
+}
+
+.great-vibes-regular {
+    font-size: 30px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
