@@ -1,6 +1,6 @@
 * {
-    padding: 0px;
-    padding: 0px;
+    padding: 0;
+    padding: 0;
 }
 
 section {
@@ -49,7 +49,8 @@ section p:nth-child(2) {
     z-index: 1;
     background-color: rgb(208, 178, 237);
 }
-div{
+
+div {
     position: fixed;
     right: 20px;
     bottom: 20px;
@@ -57,4 +58,16 @@ div{
     height: 30px;
     background-color: blueviolet;
     z-index: 3;
+}
+
+.sticky-height {
+    height: 500px;
+}
+
+.sticky {
+    position: sticky;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    top: 20x;
 }
