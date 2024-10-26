@@ -1,0 +1,35 @@
+.el_a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: green;
+}
+
+a span {
+    display: none;
+}
+
+a:hover span {
+    display: inline;
+}
+
+/*pseudoelement*/
+.el_a{
+    position: relative;
+}
+
+.el_a::before {
+    content: '123';
+    color: aqua;
+    font-size: 24px;
+}
+
+.el_a::after {
+    content: '456';
+    position: absolute;
+    right: -16px;
+    top: 6px;
+    font-size: 10px;
+    background-color: blue;
+}
