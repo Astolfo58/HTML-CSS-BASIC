@@ -78,3 +78,10 @@ h1 {
     width: 50%;
     margin: 0 auto;
 }
+/*---about-physics---*/
+.about-physics{
+    padding: 50px 20px;
+}
+.about-physics > div{
+position: relative;
+}
