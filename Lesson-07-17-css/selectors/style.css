@@ -1,0 +1,15 @@
+/*по тегу*/
+h1{
+    color: blueviolet;
+}
+/*по класу = .*/
+.s-brown{
+    color: brown;
+}
+.s-font-40{
+    font-size: 40px;
+}
+/*по айді = #*/
+#s2{
+    color: green;
+}

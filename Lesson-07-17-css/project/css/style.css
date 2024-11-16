@@ -1,0 +1,87 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*------*/
+/*---header---*/
+header {
+    position: relative;
+}
+
+header>div:first-child {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header nav {
+    float: right;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+header nav ul a:hover {
+    background-color: rgba(20, 20, 20, 0.6);
+}
+
+.welcome-to-physics {
+    background-image: url(/project/images/b-dark-2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 250px;
+    padding-bottom: 100px;
+    text-shadow: 1px 1px 1px rgb(43, 43, 43);
+}
+.welcome-to-physics p{
+    background-color: rgba(20, 20, 20, 0.7);
+    color: white;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+/*---about-physics---*/
+.about-physics{
+    padding: 50px 20px;
+}
+.about-physics > div{
+position: relative;
+}

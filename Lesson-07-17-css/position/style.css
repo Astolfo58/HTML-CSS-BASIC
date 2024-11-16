@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    padding: 0;
+}
+
+section {
+    position: relative;
+    height: 200px;
+    border: 2px solid rgb(206, 178, 232);
+    margin: 30px;
+}
+
+section p:nth-child(2) {
+    z-index: 1;
+}
+
+section p:nth-child(3) {
+    z-index: 2;
+}
+
+p {
+    border: 2px solid rgb(206, 178, 232);
+    background-color: white;
+}
+
+
+section p:nth-child(1) {
+    position: absolute;
+    width: 40%;
+    top: 50px;
+    right: 210px;
+    background-color: rgb(130, 98, 159);
+    z-index: 100;
+}
+
+section p:nth-child(2) {
+    position: absolute;
+    width: 40%;
+    bottom: 50px;
+    left: 200px;
+    z-index: 200;
+}
+
+#p-4 {
+    position: absolute;
+    width: 50%;
+    top: -50px;
+    left: 150px;
+    z-index: 1;
+    background-color: rgb(208, 178, 237);
+}
+
+div {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: blueviolet;
+    z-index: 3;
+}
+
+.sticky-height {
+    height: 500px;
+}
+
+.sticky {
+    position: sticky;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    top: 20px;
+    left: 50px;
+}

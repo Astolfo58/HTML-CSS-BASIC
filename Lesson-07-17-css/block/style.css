@@ -1,0 +1,40 @@
+body{
+    padding-bottom: 50px;
+}
+.container {
+    width: 80%;
+    background-color: aqua;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid rgb(0, 170, 255);
+
+}
+
+.block {
+    margin: 10px 0px;
+    padding: 15px;
+    border: 2px solid rgb(0, 98, 255);
+    background-color: rgb(98, 205, 255);
+}
+
+.block1 {
+    border-color: red;
+}
+
+.block2 {
+    border-color: blue;
+}
+
+.block3 {
+    border-color: green;
+}
+p{
+    background-color: blueviolet;
+    color: rgb(176, 131, 219);
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 40px;
+    border-left: 10px double rgb(91, 49, 131);
+    box-shadow: 5px 10px 4px 4px rgb(31, 0, 60);
+}
