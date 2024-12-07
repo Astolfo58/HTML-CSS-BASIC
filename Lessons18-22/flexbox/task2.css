@@ -10,6 +10,46 @@ main,
 footer {
     padding: 20px;
 }
-header{
+
+header {
     background-color: gold;
+    color: honeydew;
+}
+
+nav ul {
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+}
+
+.content {
+    background-color: blue;
+    padding: 20px;
+    min-height: 300px;
+    flex-grow: 3;
+}
+
+aside {
+    background-color: rgb(0, 0, 137);
+    padding: 20px;
+    flex-grow: 1;
+}
+footer{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 50px 0;
 }
