@@ -5,21 +5,66 @@ body {
 
 .container {
     display: grid;
-    grid-template-areas: 'header header header'
-    'nav nav nav' 
-    ''
-    '';
+    grid-template-areas:
+        'header header header'
+        'nav nav nav'
+        'articles articles articles'
+        'images images images'
+        'text-image text-image text-image'
+        'footer footer footer';
     gap: 10px;
     padding: 20px;
 }
 
-header, nav, .article, .images, .text-image, footer {
+header, nav, .articles, .images, .text-image, footer {
     padding: 20px;
-    background-color: aquamarine;
+    background-color: rgb(207, 254, 239);
 }
-header{
+
+header {
     grid-area: header;
+    text-align: center;
+    background-color: aqua;
 }
-nav{
+
+nav {
     grid-area: nav;
+    background-image: linear-gradient(aqua, rgb(255, 255, 255)) ;
+}
+
+.articles {
+    grid-area: articles;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: rgb(119, 255, 255);
+}
+
+article{
+    padding: 10px;
+}
+
+.images {
+    grid-area: images;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+.text-image{
+    grid-area: text-image;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(176, 255, 255);
+    text-align: center;
+    padding: 50px;
 }
